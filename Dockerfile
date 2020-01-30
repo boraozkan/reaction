@@ -41,7 +41,7 @@ RUN meteor npm install --production
 FROM node:8.11.4-slim
 
 # Default environment variables
-ENV ROOT_URL "http://localhost"
+ENV ROOT_URL "http://18.219.58.136"
 ENV PORT 3000
 
 # grab the dependencies and built app from the previous builder image
