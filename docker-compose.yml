@@ -34,8 +34,8 @@ services:
       - "3000:3000"
       - "9229:9229"
     volumes:
-      - .:/opt/reaction/src:cached
-      - reaction_meteor_local:/opt/reaction/src/.meteor/local
+    #  - .:/opt/reaction/src:cached
+    #  - reaction_meteor_local:/opt/reaction/src/.meteor/local
       - reaction_node_modules:/opt/reaction/src/node_modules # do not link node_modules in, and persist it between dc up runs
 
   mongo:
