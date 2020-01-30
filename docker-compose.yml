@@ -7,13 +7,13 @@ version: '3.4'
 networks:
   api:
     external:
-      name: api.reaction.localhost
+      name: api.reaction.18.219.58.136
   auth:
     external:
-      name: auth.reaction.localhost
+      name: auth.reaction.18.219.58.136
   streams:
     external:
-      name: streams.reaction.localhost
+      name: streams.reaction.18.219.58.136
 
 services:
 
